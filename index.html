@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#790d0d">
+  <meta name="description" content="Padaria Central: pães fresquinhos, confeitaria, salgados e café para todos os momentos.">
+  <title>Padaria Central | Mais que uma padaria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Padaria Central - início">
+      <span class="brand-wheat">🌾</span><span><small>Padaria</small><strong>Central</strong></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a class="active" href="#inicio">Início</a>
+      <a href="#produtos">Nossos Produtos</a>
+      <a href="#sobre">Sobre Nós</a>
+      <a href="#localizacao">Localização</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="button button-top" href="#" data-whatsapp><span>◉</span> Fazer pedido no WhatsApp</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <span class="eyebrow-pill">QUALIDADE TODOS OS DIAS</span>
+        <h1>Mais que uma padaria,<br><em>um ponto de encontro.</em></h1>
+        <p>Pães fresquinhos, produção própria, variedade e um atendimento que faz você se sentir em casa.</p>
+        <div class="hero-actions">
+          <a class="button button-red" href="#" data-whatsapp>◉ &nbsp; Fazer pedido agora <span>→</span></a>
+          <a class="button button-outline" href="#produtos">Ver nossos produtos</a>
+        </div>
+      </div>
+      <div class="hero-note">PÃES QUENTINHOS • TODOS OS DIAS</div>
+    </section>
+
+    <section class="benefits" aria-label="Diferenciais">
+      <div><span class="benefit-icon">🥖</span><span>Produtos sempre<br>frescos</span></div>
+      <div><span class="benefit-icon">☕</span><span>Café da manhã<br>com mais sabor</span></div>
+      <div><span class="benefit-icon">🏅</span><span>Qualidade e<br>tradição</span></div>
+      <div><span class="benefit-icon">♥</span><span>Atendimento<br>que faz a diferença</span></div>
+    </section>
+
+    <section class="products section-wrap" id="produtos">
+      <div class="section-heading">
+        <div><span class="eyebrow">NOSSOS PRODUTOS</span><h2>Variedade para<br>todos os momentos.</h2><span class="gold-line"></span></div>
+        <div class="heading-side"><p>Do tradicional pão francês às opções de confeitaria,<br class="desktop-only"> temos tudo o que você precisa para o seu dia.</p><a class="button button-red small" href="#" data-whatsapp>Ver todos os produtos&nbsp; →</a></div>
+      </div>
+      <div class="product-grid">
+        <a class="product-card bread" href="#" data-category="Pães"><span class="product-label"><b>🥖</b><span><strong>Pães</strong><small>Pães fresquinhos todos os dias</small></span></span></a>
+        <a class="product-card cakes" href="#" data-category="Confeitaria"><span class="product-label"><b>🍰</b><span><strong>Confeitaria</strong><small>Doces e bolos irresistíveis</small></span></span></a>
+        <a class="product-card snacks" href="#" data-category="Salgados"><span class="product-label"><b>🥟</b><span><strong>Salgados</strong><small>Sabor para qualquer hora</small></span></span></a>
+        <a class="product-card coffee" href="#" data-category="Café da Manhã"><span class="product-label"><b>☕</b><span><strong>Café da Manhã</strong><small>Combinações perfeitas</small></span></span></a>
+        <a class="product-card drinks" href="#" data-category="Bebidas"><span class="product-label"><b>🥤</b><span><strong>Bebidas</strong><small>Sucos, cafés e muito mais</small></span></span></a>
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="promo-photo" role="img" aria-label="Pães dourados recém-assados"></div>
+      <div class="promo-copy"><span class="eyebrow gold">PÃO FRANCÊS</span><h2>Sempre fresquinho</h2><p>Produção própria todos os dias, direto do nosso forno para a sua mesa.</p></div>
+      <div class="promo-mark">🌾</div>
+      <a class="button button-gold" href="#" data-whatsapp>Venha conferir&nbsp; →</a>
+    </section>
+
+    <section class="info-grid section-wrap">
+      <article class="about" id="sobre">
+        <h2>Sobre a Padaria Central</h2>
+        <div class="about-content">
+          <div class="store-placeholder"><span>PADARIA<br><strong>CENTRAL</strong></span><small>Seu lugar de todos os dias</small></div>
+          <div><p>A Padaria Central nasceu para oferecer qualidade, sabor e um atendimento especial para a nossa comunidade. Todos os dias, trabalhamos com dedicação para levar até você produtos frescos e irresistíveis.</p><a class="button button-red small" href="#contato">Conheça mais&nbsp; →</a></div>
+        </div>
+      </article>
+      <article class="location" id="localizacao">
+        <h2>Nossa Localização</h2>
+        <p class="location-line">📍 <span>Adicione aqui o endereço da padaria<br>Centro, sua cidade - SP</span></p>
+        <div class="map-placeholder"><span>📍</span><small>Endereço da Padaria Central</small></div>
+        <a class="button button-red small" href="https://maps.google.com/" target="_blank" rel="noopener">▣ &nbsp; Ver no Google Maps</a>
+      </article>
+      <article class="contact" id="contato">
+        <h2>Fale Conosco</h2>
+        <a class="contact-row whatsapp-row" href="#" data-whatsapp><span>◉</span><div><small>Fazer pedido no WhatsApp</small><strong data-phone-label>(11) 99999-9999</strong></div></a>
+        <div class="contact-row"><span>☎</span><div><small>Telefone</small><strong>Adicione seu telefone</strong></div></div>
+        <div class="contact-row"><span>◷</span><div><small>Horário de Funcionamento</small><strong>Seg a sáb: 6h às 21h<br>Dom: 6h às 14h</strong></div></div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#inicio"><span class="brand-wheat">🌾</span><span><small>Padaria</small><strong>Central</strong></span></a>
+    <nav><a href="#inicio">Início</a><a href="#produtos">Produtos</a><a href="#sobre">Sobre</a><a href="#localizacao">Localização</a><a href="#contato">Contato</a></nav>
+    <div class="social"><span>Siga nossas redes</span><a href="#" data-instagram aria-label="Instagram">◎</a><a href="#" data-facebook aria-label="Facebook">f</a></div>
+  </footer>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>

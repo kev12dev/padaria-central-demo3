@@ -1,0 +1,20 @@
+PADARIA CENTRAL — SITE MODELO
+
+Arquivos:
+- index.html: conteúdo do site
+- style.css: cores, layout e responsividade
+- script.js: WhatsApp, redes sociais e menu do celular
+- assets/referencia-visual.png: imagem de referência do design
+
+ANTES DE PUBLICAR:
+1. Abra script.js e substitua o número de WhatsApp de exemplo em CONFIG.whatsapp (formato internacional, só números; Brasil = 55 + DDD + número).
+2. Ajuste CONFIG.phoneLabel, CONFIG.instagram e CONFIG.facebook.
+3. No index.html, substitua endereço, telefone, horários e textos de exemplo pelos dados reais.
+4. As fotos de produtos usam imagens externas e precisam de internet para carregar.
+5. A área "Sobre a Padaria" e o mapa são placeholders estilizados; personalize com foto e endereço reais.
+
+PUBLICAR NO GITHUB PAGES:
+1. Extraia o ZIP.
+2. Entre no repositório GitHub pelo celular.
+3. Faça upload de index.html, style.css, script.js e da pasta assets.
+4. Em Settings > Pages, selecione a branch principal e a pasta /(root), se ainda não estiver configurado.
